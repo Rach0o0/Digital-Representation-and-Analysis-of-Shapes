@@ -55,7 +55,7 @@ Make sure that you add CMake to the Path.
 |:----:|
 
 When installing visual studio make sure that you pick the c++ tools.
-|![Pick C++ tools](imgs/Capture_d'écran_2024-07-17_0162120.png "Pick C++ Tools")|
+|![Pick C++ tools](imgs/Capture_d_écran_2024-07-17_162120.png "Pick C++ Tools")|
 |:----:|
 
 Once this is done, you can open the Folder TDX in Visual Studio. If everything went well Visual Studio should recognise the CMakeLists.txt.
