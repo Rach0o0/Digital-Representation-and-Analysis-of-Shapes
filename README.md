@@ -51,11 +51,11 @@ If you don't specify a mesh, the program will load a default mesh. You can run a
 You will need to install CMake and a c++ compiler, for instance the VisualStudio compiler.
 
 Make sure that you add CMake to the Path.
-|![Add CMake to Path](imgs/Capture%20d'écran%202024-07-17%20161017.png "Add CMake to Path")|
+|![Add CMake to Path](imgs/Capture d'écran 2024-07-17 161017.png "Add CMake to Path")|
 |:----:|
 
 When installing visual studio make sure that you pick the c++ tools.
-|![Pick C++ tools](imgs/Capture%20d'écran%202024-07-17%20162120.png "Pick C++ Tools")|
+|![Pick C++ tools](imgs/Capture d'écran 2024-07-17 0162120.png "Pick C++ Tools")|
 |:----:|
 
 Once this is done, you can open the Folder TDX in Visual Studio. If everything went well Visual Studio should recognise the CMakeLists.txt.
