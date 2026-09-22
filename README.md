@@ -62,9 +62,7 @@ Once this is done, you can open the Folder TDX in Visual Studio. If everything w
 
 ### Optional TD Submission
 
-Once you clone this repo with all necessary submodules, please create your own github (or gitlab) repository. **Please include your name and the course title in the reponame.**
-
-Please do not use the binet gitlab for the creation of your repo, since we as teachers cannot access it.
+Once you clone this repo with all necessary submodules, please create your own github (or gitlab) repository. We recommend that you include your name and the course title in the reponame. Please do not use the binet gitlab for the creation of your repo, since if later you need to share your repo with us, we as teachers cannot access it.
 
 You have to make the repo with your code private.
 Thus, please create first a private repo
@@ -80,10 +78,6 @@ Once you have done this, you can push the skeleton to your new repo via
 |![push to private](imgs/steps_git_repo.png "push to private")|
 |:----:|
 
-Once you see that the push worked, you can add us (Pooran Memari (memari@lix.polytechnique.fr) and Emilien Ganier (emilien.ganier@polytechnique.edu) ) as colaborators and give us write access. To do that, go in your repository to `settings`, click on `collaborators`, select `Add People` and add us with our mail adresses.
-|![push to private](imgs/add_colaborator.png "push to private")|
-|:----:|
-
-This would allow you to share your code with us if you wish. For this, please ensure that for each TD, you submit your final solution by committing your code to your repository with the following commit message: git commit -m "Final TD Solution XY". 
+We will be happy to help you with your TD assignments during the semester, you can contact us (Pooran Memari (memari@lix.polytechnique.fr) and Emilien Ganier (emilien.ganier@polytechnique.edu) ). If we can't help you and advise you to share your code with us, we will ask you to add us (Pooran Memari (memari@lix.polytechnique.fr) and Emilien Ganier (emilien.ganier@polytechnique.edu) ) as colaborators and give us write access. To do that, go in your repository to `settings`, click on `collaborators`, select `Add People` and add us with our mail adresses. This would allow you to share your code with us if needed. For this, please ensure that you are committing your code to your repository with the exact commit message that we will recommand for each specific case, for an easier tracking in your repo. Thanks. 
 
 
