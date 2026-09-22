@@ -1,93 +1,89 @@
-# Code Skeleton Csc 51074 Ep 2026
+# Coding For CSC_51074_EP
 
+Welcome to CSC_51074. This repository contains the code basis for every assignment. For every week, there is one assignment in the folders TDX. To get started clone this repository with all the necessary submodules through:
 
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.inria.fr/geomerix/public/teaching/code-skeleton-csc_51074_ep_2026.git
-git branch -M main
-git push -uf origin main
+```shell
+git clone https://gitlab.inria.fr/geomerix/public/teaching/code-skeleton-csc_51074_ep_2026.git
 ```
 
-## Integrate with your tools
+For this course we will use [Libigl](https://libigl.github.io/) as a 'geometric backbone', [Polyscope](https://polyscope.run/) for the visualization and animation of our geometries and [Googletest](https://google.github.io/googletest/) to properly test the software that you will write.
 
-* [Set up project integrations](https://gitlab.inria.fr/geomerix/public/teaching/code-skeleton-csc_51074_ep_2026/-/settings/integrations)
+We will provide you every week with a new `.zip` folder with each weeks assignment. Please unzip each of them here in the root directory and remove the .zip file afterwards. You will then have the folder`cmake`, that is already there, alongside with folders called `TD1`, `TD2`... 
 
-## Collaborate with your team
+Depending on your operating system you may need to install a few things before you can get started if you have not coded in c++ before. Please let us if you encounter difficulties in the setup process.
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+### Linux
 
-## Test and Deploy
+You will need to use the UNIX build essentials and CMake. If you don't have them already, they can be installed via
 
-Use the built-in continuous integration in GitLab.
+```shell
+sudo apt install build-essential
+sudo apt  install cmake
+sudo apt-get install xorg-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+### Mac
 
-***
+You may need to install X11 dependencies.
 
-# Editing this README
+```shell
+brew install --cask xquartz
+```
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+For Mac and Linux you can then go in the folder `TD1` and execute:
 
-## Suggestions for a good README
+```shell
+cd TD1
+mkdir build && cd build
+cmake ..
+make -j8
+./bin/td_1_executable
+```
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+If you don't specify a mesh, the program will load a default mesh. You can run a specific mesh by running
 
-## Name
-Choose a self-explaining name for your project.
+```shell
+./bin/td_1_executable /data/your_favorite_mesh.off
+```
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### Windows
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+You will need to install CMake and a c++ compiler, for instance the VisualStudio compiler.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Make sure that you add CMake to the Path.
+|![Add CMake to Path](imgs/Capture%20d'écran%202024-07-17%20161017.png "Add CMake to Path")|
+|:----:|
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+When installing visual studio make sure that you pick the c++ tools.
+|![Pick C++ tools](imgs/Capture%20d'écran%202024-07-17%20162120.png "Pick C++ Tools")|
+|:----:|
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Once this is done, you can open the Folder TDX in Visual Studio. If everything went well Visual Studio should recognise the CMakeLists.txt.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+### Optional TD Submission
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Once you clone this repo with all necessary submodules, please create your own github (or gitlab) repository. **Please include your name and the course title in the reponame.**
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+Please do not use the binet gitlab for the creation of your repo, since we as teachers cannot access it.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+You have to make the repo with your code private.
+Thus, please create first a private repo
+|![Private repo](imgs/first_page_repo.png "private repo")|
+|:----:|
+Then, once you are in the cloned repo on your machine, add the address of your newly created repository
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+```
+~/code-skeleton-csc_51074_ep$ git remote set-url origin <your-repo-url>
+```
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+Once you have done this, you can push the skeleton to your new repo via
+|![push to private](imgs/steps_git_repo.png "push to private")|
+|:----:|
 
-## License
-For open source projects, say how it is licensed.
+Once you see that the push worked, you can add us (Pooran Memari (memari@lix.polytechnique.fr) and Emilien Ganier (emilien.ganier@polytechnique.edu) ) as colaborators and give us write access. To do that, go in your repository to `settings`, click on `collaborators`, select `Add People` and add us with our mail adresses.
+|![push to private](imgs/add_colaborator.png "push to private")|
+|:----:|
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This would allow you to share your code with us if you wish. For this, please ensure that for each TD, you submit your final solution by committing your code to your repository with the following commit message: git commit -m "Final TD Solution XY". 
+
+
