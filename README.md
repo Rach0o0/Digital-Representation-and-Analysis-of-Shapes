@@ -60,6 +60,10 @@ When installing visual studio make sure that you pick the c++ tools.
 
 Once this is done, you can open the Folder TDX in Visual Studio. If everything went well Visual Studio should recognise the CMakeLists.txt.
 
+#### WSL
+
+Alternatively, you can also install WSL2 (Windows Subsystem for Linux, https://learn.microsoft.com/fr-fr/windows/wsl/install). Once it is done, you can simply refer to the linux instructions above.
+
 ### Optional TD Submission
 
 Once you clone this repo with all necessary submodules, please create your own github (or gitlab) repository. We recommend that you include your name and the course title in the reponame. Please do not use the binet gitlab for the creation of your repo, since if later you need to share your repo with us, we as teachers cannot access it.
