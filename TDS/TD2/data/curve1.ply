@@ -1,0 +1,19 @@
+ply
+format ascii 1.0
+element vertex 9
+property double x
+property double y
+property double z
+element face 1
+property list uint8 int32 vertex_indices
+end_header
+-4 0.1 0.0
+-3 -0.1 0.0
+-2 0 0.0
+-1 -0.3 0.0
+0.0 0.2 0.0
+1 0.05 0.0
+2 0 0.0
+3 0.1 0.0
+4 -0.1 0.0
+3 0 1 2

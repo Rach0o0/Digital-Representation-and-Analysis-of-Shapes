@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/td_1_executable.dir/src/main.cpp.o -o bin/td_1_executable  lib/libpolyscope.a lib/libtd_1_lib.a lib/libpolyscope.a lib/libimgui.a lib/libglm.a lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so lib/libglad.a lib/libstb.a 

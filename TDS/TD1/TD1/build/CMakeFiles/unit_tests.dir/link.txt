@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/unit_tests.dir/tests/unittests.cpp.o -o bin/unit_tests  lib/libtd_1_lib.a lib/libgtest.a lib/libgtest_main.a lib/libpolyscope.a lib/libimgui.a lib/libglm.a lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so lib/libglad.a lib/libstb.a lib/libgtest.a 

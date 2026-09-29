@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/CMakeFiles/polyscope-populate"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/CMakeFiles/polyscope-populate.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/CMakeFiles/polyscope-populate-complete.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-build.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-configure.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-download.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-install.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-patch.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-test.rule"
+		},
+		{
+			"file" : "/home/rachid/digital_representation/code-skeleton-csc_51074_ep_2026/TDS/TD1/TD1/build/_deps/polyscope-subbuild/polyscope-populate-prefix/src/polyscope-populate-stamp/polyscope-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"polyscope-populate"
+		],
+		"name" : "polyscope-populate"
+	}
+}

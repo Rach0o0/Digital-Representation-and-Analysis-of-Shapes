@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libtd_1_lib.a CMakeFiles/td_1_lib.dir/src/Transform.cpp.o
+/usr/bin/ranlib lib/libtd_1_lib.a
